@@ -1,2 +1,3 @@
-xbmc-audiooutput-widget
-=======================
+== xbmc-audiooutput-widget
+
+This will eventually become a little widget to toggle the audio output of my raspbmc between HDMI and analog.
