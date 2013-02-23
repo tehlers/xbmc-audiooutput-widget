@@ -1,0 +1,2 @@
+xbmc-audiooutput-widget
+=======================
