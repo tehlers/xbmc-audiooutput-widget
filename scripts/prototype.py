@@ -13,8 +13,6 @@ import sys
 import urllib
 import urllib2
 
-# http://forum.xbmc.org/showthread.php?tid=136111
-
 AUDIO_TOGGLE_DIGITAL = urllib.quote_plus( '{ "jsonrpc" : "2.0", "method" : "Input.ExecuteAction", "params" : { "action" : "audiotoggledigital" }, "id" : 1 }' )
 
 def toggleAudioOutput( host, username, password ):
