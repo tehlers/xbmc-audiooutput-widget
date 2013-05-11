@@ -4,13 +4,15 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.2'
+        classpath 'com.android.tools.build:gradle:0.3'
     }
 }
 
 apply plugin: 'android'
 
 android {
+    compileSdkVersion 17
+
     sourceSets {
         main {
             manifest {
@@ -39,5 +41,5 @@ android {
 }
 
 task wrapper( type: Wrapper ) {
-    gradleVersion = '1.2'
+    gradleVersion = '1.3'
 }
